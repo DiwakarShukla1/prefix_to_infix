@@ -18,5 +18,5 @@ Test
    output :-- WRONG EXPRESSION
 
 3. input  :-- *+a-bc/-de+-fghi1
-   output :-- WRONG INPUT 
+   output :-- WRONG INPUT\n 
               PLEASE GIVE INPUT FORMAT LIKE : *+a-bc/-de+-fgh
