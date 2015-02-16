@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<script src="src/test.js" type="text/JavaScript"> </script>
+		<script>
+			function convert() {
+				var value = conversion.prefix_To_Infix( document.getElementById("_prefix").value);
+				document.getElementById("output").innerHTML=value;
+			}
+		</script>
+	</head>
+	<body>
+		Enter Prefix : <input type="text" id="_prefix" /> <br/><br/><br/>
+		<input type="submit" value="Convert To Infix" onclick="convert()"/> <br/><br/><br/><br/>
+		Output : <div id="output">
+		</div>
+	</body>
+</html>
